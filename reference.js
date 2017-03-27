@@ -3,7 +3,10 @@
  * A JSdoc plugin that creates a linkable `reference` category (aliased to `definition` and `terminology`).
  * Useful when you have something that isn't easily defined elsewhere, such as an options object that is used repeatedly or a return
  * object that is returned by many different functions. Or you simply want to define something or use terminology that needs 
- * to be defined. Items in `reference` 
+ * to be defined. 
+ *
+ * Items in `reference` can be linked to per normal linking. All items are in the `global` scope, so they will not follow a namespace or
+ * module pattern, even if you try to make them one.
  * 
  * Downloadable from https://github.com/bartmelton/jsdoc-plugins
  * 

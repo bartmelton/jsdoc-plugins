@@ -30,5 +30,13 @@ Template makers can then use the `doclet.category` property to group data in the
  
  example 2:
  ```
- @definition confusingWord - some word you are using that needs clarification/context or in leiu of repeating a paragraph over and over.
+ @definition confusingWord - some word you are using that needs clarification/context 
+								or in leiu of repeating a paragraph over and over.
  ```
+ 
+## Installing
+
+Download the `.js` file that you want and put it in your `jsdoc/plugins` directory.
+
+Then edit `jsdoc/conf.json` and add `plugins/filename` (without the .js) to the `plugins` array.
+
